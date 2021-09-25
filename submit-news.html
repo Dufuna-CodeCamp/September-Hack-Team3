@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COVID-19 News | Submit News</title>
+</head>
+
+<body>
+    <main>
+        <header>
+            <nav>
+                <ul>
+                    <li> <a href="./index.html">Home Page</a></li>
+                    <li> <a href="./read-news.html">News Info</a></li>
+                    <li> <a href="#">Got any Info? Share with us</a></li>
+                </ul>
+            </nav>
+        </header>
+        <form action="index.html" method="POST">
+            <fieldset>
+                <legend><h2>Submit Latest News on Covid-19</h3></legend>
+                <p>
+                    <b><label for="newsTitle">Title</label></b> <br>
+                    <input type="text" name="newsTitle" id="newsTitle"
+                        placeholder="News Update Title Here: In Uppercase Please" size="100">
+                </p>
+                <p>
+                    <b><label for="newsBody">News Body</label></b> <br>
+                    <textarea type="text" name="newsBody" id="newsBody" placeholder="News Body here" rows="8" cols="100"></textarea>
+                </p>
+                <p>
+                    <b><label for="image">Upload an image</label></b> <br>
+                    <input type="file" name="newsImage" id="newsImage" accept="image/*" size="40">
+                </p>
+                <p>
+                    <input type="submit" value="Update News">
+                </p>
+            </fieldset>
+        </form>
+    </main>
+</body>
+
+</html>
